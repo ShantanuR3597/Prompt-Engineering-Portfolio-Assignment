@@ -380,4 +380,93 @@ Here are 10 creative, modern taglines crafted for your eco-friendly water bottle
 Role assignment and context setting significantly improved the quality of the generated outputs. In Scenario A, assigning the model the role of an elementary school teacher helped produce an explanation that was more engaging and appropriate for a 10-year-old audience. In Scenario B, providing the context that the candidate had accepted another opportunity resulted in a more realistic and professional email. In Scenario C, specifying the role of an advertising copywriter along with target audience and brand values generated more creative and relevant marketing taglines. Overall, adding role and context helped the model better understand the intended audience, purpose, and desired outcome.
 
 
+## Part 2: Temperature & Parameter Control
+
+### 2.1 Temperature Experimentation
+
+#### Chosen Task
+
+Creating a short story opening (2–3 sentences)
+
+---
+
+### Base Prompt
+
+Write a 2-3 sentence opening for a fantasy story about a mysterious door that appears in a forest.
+
+---
+
+### Low Temperature (0.0 - 0.3)
+
+#### Prompt Used
+
+Be precise and consistent.
+
+Write a 2-3 sentence opening for a fantasy story about a mysterious door that appears in a forest.
+
+#### Output
+
+The ancient oaks of the deep woods gave way not to a clearing, but to a freestanding door of polished mahogany rising straight from the moss. Its brass knob gleamed untarnished in the dappled sunlight, completely defying the damp decay of the surrounding forest. When Elara tentatively reached for the handle, the wood hummed beneath her fingertips with a low, vibrating energy that tasted of ozone and forgotten realms.
+
+---
+
+### Medium Temperature (0.6 - 0.8)
+
+#### Prompt Used
+
+Write a 2-3 sentence opening for a fantasy story about a mysterious door that appears in a forest.
+
+#### Output
+
+It hadn't been there yesterday, a solitary door of wrought iron and frosted glass standing entirely unsupported among the ancient pines. Wisps of violet mist curled from its hinges, defying the stiff autumn breeze that rustled the dead leaves below. As Kael stepped closer, the glass frosted over with intricate, glowing runes that pulsed in perfect rhythm with his racing heart.
+
+---
+
+### High Temperature (1.0 - 1.5)
+
+#### Prompt Used
+
+Be creative and explore diverse ideas.
+
+Write a 2-3 sentence opening for a fantasy story about a mysterious door that appears in a forest.
+
+#### Output
+
+Between the twisted roots of the elderwood stood a freestanding frame of petrified wood, its interior holding not the forest behind it, but the swirling, vibrant expanse of a starlit nebula. There was no physical door to push open, only a threshold of chilling gravity that smelled faintly of burning sugar and winter frost. When Lyra tossed a fallen acorn into the cosmic mass, it didn't hit the dirt, but drifted slowly upward into the glittering abyss.
+
+---
+
+### Comparison Table
+
+| Temperature      | Characteristics Observed                                                               | Creativity Level |
+| ---------------- | -------------------------------------------------------------------------------------- | ---------------- |
+| Low (0.0–0.3)    | Clear, focused, logical description of a mysterious door with limited fantasy elements | Low              |
+| Medium (0.6–0.8) | Balanced mix of mystery, fantasy, and descriptive imagery                              | Medium           |
+| High (1.0–1.5)   | Highly imaginative concepts, unusual details, and unpredictable storytelling elements  | High             |
+
+---
+
+## 2.2 Analysis & Recommendations
+
+Low temperature is most useful when accuracy, consistency, and predictability are important. Two examples include generating technical documentation and drafting professional business communications where factual correctness matters more than creativity.
+
+High temperature is most useful for creative tasks that benefit from originality and diverse ideas. Two examples include writing fiction stories and brainstorming marketing campaigns where unique and unexpected outputs are valuable.
+
+For this task, the high temperature setting produced the most interesting result because it generated highly imaginative concepts such as a doorway containing a starlit nebula and an acorn floating upward into space. While the low and medium temperature outputs were strong and coherent, the high temperature output was the most memorable and demonstrated the greatest level of creativity. Therefore, high temperature was the most effective choice for a fantasy story opening.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
